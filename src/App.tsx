@@ -1,12 +1,17 @@
-import React from 'react';
-import {PageIndex} from "./pages/index";
+import { Provider } from 'react-redux'
+import { PageIndex } from './pages/index'
+import { setupStore } from './store'
+
+const store = setupStore()
 
 function App() {
   return (
     <div className="App">
-      <PageIndex />
+      <Provider store={store}>
+        <PageIndex />
+      </Provider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

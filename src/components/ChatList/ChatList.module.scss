@@ -1,0 +1,21 @@
+.ChatList {
+  width: 350px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  .header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #201f1e;
+
+    margin: 20px 16px;
+  }
+}

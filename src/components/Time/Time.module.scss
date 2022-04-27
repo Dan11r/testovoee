@@ -1,0 +1,19 @@
+.time {
+  margin-left: 12px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .date {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+
+    color: #605e5c;
+  }
+  svg {
+    margin-left: 2px;
+  }
+}

@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .myMessage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 50%;
+    padding: 8px 12px;
+    margin: 34px 24px 34px 0;
+
+    background: rgba(64, 126, 201, 0.16);
+    border-radius: 4px;
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+
+      color: #201f1e;
+    }
+  }
+}

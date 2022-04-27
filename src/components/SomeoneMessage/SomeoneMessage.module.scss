@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  .someoneMessage {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px 12px;
+    max-width: 50%;
+    background: #f3f3f3;
+    border-radius: 4px;
+    margin-left: 64px;
+    margin-bottom: 4px;
+    .userName {
+      position: absolute;
+      top: -23px;
+      left: 0;
+      font-size: 15px;
+      line-height: 20px;
+
+      color: #201f1e;
+    }
+    .avatar {
+      position: absolute;
+      top: -19px;
+      left: -37px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+
+      color: #201f1e;
+    }
+    .date {
+      margin: 0 0 0 12px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 9px;
+
+      color: #605e5c;
+    }
+  }
+}
